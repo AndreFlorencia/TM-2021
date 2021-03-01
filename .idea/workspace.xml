@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="743327bb-6ae9-434f-ab4f-2d82712bc286" name="Default Changelist" comment="" />
+    <list default="true" id="743327bb-6ae9-434f-ab4f-2d82712bc286" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 2/exercicio1/Template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 2/exercicio1/Template/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 2/exercicio1/Template/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +27,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Documentos\GitHub\TM-2021\Aula 2\exercicio1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -49,6 +59,8 @@
       <workItem from="1614556463585" duration="58000" />
       <workItem from="1614557051594" duration="33000" />
       <workItem from="1614557248589" duration="850000" />
+      <workItem from="1614618957237" duration="5000" />
+      <workItem from="1614618968748" duration="1697000" />
     </task>
     <servers />
   </component>

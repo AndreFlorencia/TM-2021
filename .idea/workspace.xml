@@ -1,28 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="743327bb-6ae9-434f-ab4f-2d82712bc286" name="Default Changelist" comment="">
+    <list default="true" id="743327bb-6ae9-434f-ab4f-2d82712bc286" name="Default Changelist" comment="DAm">
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/Exercice2-Phaser3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/BackgroundTile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/Bomberman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/ExplodableBlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/Portal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/SolidBlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomb.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomb/Bomb_f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomberman/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomberman/front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomberman/side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Flame.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Flame/Flame_f00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/Control_PlayerOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/Control_PlayerTwo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/One_Player_Hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/One_Player_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/Two_Players_Hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/Two_Players_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/title_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/title_titletext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Powerups/BombPowerup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Powerups/FlamePowerup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Powerups/SpeedPowerup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/title_flat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/lib/phaser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/src/Bomba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/src/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/Scene1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/Scene2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/beam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/power-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/ship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/ship2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/ship3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/beam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/game.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/phaser.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 5/Rename with Name-Number/src/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 5/Rename with Name-Number/src/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1oqYU1Eqg00aa7rb0UbnvNVSqLB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AI" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,7 +114,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Documentos\GitHub\TM-2021\TrabalhoPrático\scripts" />
+      <recent name="C:\Users\andre\OneDrive\Documentos\GitHub\TM-2021" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\OneDrive\Documentos\GitHub\TM-2021\Tp\Rename with Name-Number\assets\Bomberman" />
       <recent name="C:\Users\andre\OneDrive\Documentos\GitHub\TM-2021\Aula 2\exercicio1" />
     </key>
   </component>
@@ -70,6 +157,41 @@
       <workItem from="1615889925530" duration="8000" />
       <workItem from="1615899601180" duration="1286000" />
       <workItem from="1615910063367" duration="110000" />
+      <workItem from="1616433371096" duration="809000" />
+      <workItem from="1616490560521" duration="7000" />
+      <workItem from="1616624526634" duration="647000" />
+      <workItem from="1616715078224" duration="44000" />
+      <workItem from="1617290546433" duration="1351000" />
+      <workItem from="1617361076520" duration="14067000" />
+      <workItem from="1617384295186" duration="1804000" />
+      <workItem from="1617401733756" duration="1480000" />
+      <workItem from="1617458512143" duration="2078000" />
+      <workItem from="1617460999659" duration="720000" />
+      <workItem from="1617461744524" duration="1338000" />
+      <workItem from="1617463435692" duration="8355000" />
+      <workItem from="1617476347057" duration="405000" />
+      <workItem from="1617477097500" duration="80000" />
+      <workItem from="1617477201341" duration="312000" />
+      <workItem from="1617477729626" duration="4790000" />
+      <workItem from="1617489195148" duration="1833000" />
+      <workItem from="1617552577861" duration="5550000" />
+      <workItem from="1617574542873" duration="32000" />
+      <workItem from="1617646921146" duration="873000" />
+      <workItem from="1617659211399" duration="608000" />
+      <workItem from="1617725935328" duration="4887000" />
+      <workItem from="1617731034126" duration="4004000" />
+      <workItem from="1617735819140" duration="391000" />
+      <workItem from="1617738981074" duration="2034000" />
+      <workItem from="1617741425521" duration="667000" />
+      <workItem from="1617742596435" duration="1807000" />
+      <workItem from="1617751705191" duration="2286000" />
+      <workItem from="1617801426500" duration="6108000" />
+      <workItem from="1618164622829" duration="6744000" />
+      <workItem from="1618175927851" duration="329000" />
+      <workItem from="1618177077973" duration="959000" />
+      <workItem from="1618184928937" duration="283000" />
+      <workItem from="1618245612458" duration="730000" />
+      <workItem from="1618268271969" duration="82000" />
     </task>
     <servers />
   </component>
@@ -87,5 +209,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="DAm" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAm" />
   </component>
 </project>

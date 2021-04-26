@@ -2,6 +2,7 @@ var gameSettings = {
   playerSpeed: 200,
   maxPowerups: 2,
   powerUpVel: 50,
+  showGUI: true,
 }
 
 var config = {

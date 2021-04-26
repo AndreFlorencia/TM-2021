@@ -27,8 +27,6 @@ class Scene2 extends Phaser.Scene {
     this.ship2.setInteractive();
     this.ship3.setInteractive();
 
-    this.input.on('gameobjectdown', this.destroyShip, this);
-
     this.physics.world.setBoundsCollision();
 
     this.powerUps = this.physics.add.group();
@@ -84,7 +82,8 @@ class Scene2 extends Phaser.Scene {
     //
     graphics.closePath();
     graphics.fillPath();
-
+    this.gameOver=false;
+    this.vidas=3;
     this.score = 0;
     var scoreFormated = this.zeroPad(this.score, 6);
     this.scoreLabel = this.add.bitmapText(10, 5, "pixelFont", "SCORE " + scoreFormated  , 16);
@@ -99,7 +98,7 @@ class Scene2 extends Phaser.Scene {
 
     var musicConfig = {
       mute: false,
-      volume: 1,
+      volume: 0.5,
       rate: 1,
       detune: 0,
       seek: 0,
@@ -118,15 +117,16 @@ class Scene2 extends Phaser.Scene {
   }
 
   hurtPlayer(player, enemy) {
-
+    this.vidas--;
+    console.log(this.vidas);
     this.resetShipPos(enemy);
-
+    this.cameras.main.shake(200, 0.01);
     if(this.player.alpha < 1){
         return;
     }
 
     var explosion = new Explosion(this, player.x, player.y);
-
+    this.explosionSound.play();
     player.disableBody(true, true);
 
     this.time.addEvent({
@@ -170,7 +170,7 @@ class Scene2 extends Phaser.Scene {
      this.scoreLabel.text = "SCORE " + scoreFormated;
 
      // 1.4 play sounds
-     this.explosionSound.play();
+    this.explosionSound.play();
   }
 
 
@@ -185,35 +185,41 @@ class Scene2 extends Phaser.Scene {
 
 
 
+
+
   update() {
 
+    if (this.vidas == 0) {
+      this.adios();
+    }
+
+      this.moveShip(this.ship1, 1);
+      this.moveShip(this.ship2, 2);
+      this.moveShip(this.ship3, 3);
+      // for testing purpouses
+      // this.ship1.destroy();
+      // this.ship2.destroy();
+      // this.ship3.destroy();
+
+      this.background.tilePositionY -= 0.5;
 
 
-    this.moveShip(this.ship1, 1);
-    this.moveShip(this.ship2, 2);
-    this.moveShip(this.ship3, 3);
-    // for testing purpouses
-    // this.ship1.destroy();
-    // this.ship2.destroy();
-    // this.ship3.destroy();
+      this.movePlayerManager();
 
-    this.background.tilePositionY -= 0.5;
-
-
-    this.movePlayerManager();
-
-    if (Phaser.Input.Keyboard.JustDown(this.spacebar)) {
-      if(this.player.active){
+      if (Phaser.Input.Keyboard.JustDown(this.spacebar)) {
+        if (this.player.active) {
           this.shootBeam();
+        }
       }
-    }
-    for (var i = 0; i < this.projectiles.getChildren().length; i++) {
-      var beam = this.projectiles.getChildren()[i];
-      beam.update();
-    }
+      for (var i = 0; i < this.projectiles.getChildren().length; i++) {
+        var beam = this.projectiles.getChildren()[i];
+        beam.update();
+      }
+
 
 
   }
+
 
   shootBeam() {
       var beam = new Beam(this);
@@ -260,6 +266,51 @@ class Scene2 extends Phaser.Scene {
     gameObject.setTexture("explosion");
     gameObject.play("explode");
   }
+  adios(){
+
+    let halfGameWidth = game.config.width / 2;
+
+    // add restart icon, outside the screen off the bottom
+    let restartIcon = this.add.sprite(halfGameWidth - 120, game.config.height + 150, "icons");
+
+    // set restart icon interactive
+    restartIcon.setInteractive();
+
+    // when the input is released...
+    restartIcon.on("pointerup", function () {
+
+      gameSettings.showGUI = false;
+      // restart the scene
+      this.scene.start("playGame");
+    }, this);
+
+    // add home icon, outside the screen off the bottom
+    let homeIcon = this.add.sprite(halfGameWidth + 120, game.config.height + 150, "icons");
+
+    // set frame number to show the proper icon
+    homeIcon.setFrame(1)
+
+    // set home icon interactive
+    homeIcon.setInteractive();
+
+    // when the input is released...
+    homeIcon.on("pointerup", function () {
+
+      gameSettings.showGUI = false;
+      // restart the scene
+      this.scene.start("bootGame");
+    }, this);
 
 
+
+    // tween to make home and menu icons enter the screen from the bottom
+    this.tweens.add({
+      targets: [restartIcon, homeIcon],
+      y: game.config.height / 2,
+      duration: 800,
+      ease: "Cubic.easeIn"
+    })
+
+    this.vidas=3;
+  }
 }

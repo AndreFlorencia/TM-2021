@@ -2,70 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="743327bb-6ae9-434f-ab4f-2d82712bc286" name="Default Changelist" comment="DAm">
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/Exercice2-Phaser3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/BackgroundTile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/Bomberman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/ExplodableBlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/Portal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Blocks/SolidBlock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomb.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomb/Bomb_f01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomberman/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomberman/front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Bomberman/side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Back/Creep_B_f05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Front/Creep_F_f05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Creep/Side/Creep_S_f06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Flame.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Flame/Flame_f00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/Control_PlayerOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/Control_PlayerTwo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/One_Player_Hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/One_Player_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/Two_Players_Hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/Two_Players_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/title_background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Menu/title_titletext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Powerups/BombPowerup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Powerups/FlamePowerup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/Powerups/SpeedPowerup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/assets/title_flat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/lib/phaser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/src/Bomba.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tp/Rename with Name-Number/src/game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/Scene1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/Scene2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/beam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/explosion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/power-up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/ship.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/ship2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/ship3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/beam.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoPrático/phaser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP-23448/Scene3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP-23448/assets/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/playbutton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/title.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 5/Rename with Name-Number/src/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 5/Rename with Name-Number/src/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/Scene1.js" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/Scene1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/Scene2.js" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/Scene2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/font/font.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/font/font.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/font/font.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/font/font.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/sounds/beam.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/sounds/beam.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/sounds/beam.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/sounds/beam.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/sounds/explosion.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/sounds/explosion.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/sounds/explosion.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/sounds/explosion.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/sounds/pickup.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/sounds/pickup.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/sounds/pickup.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/sounds/pickup.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/sounds/sci-fi_platformer12.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/sounds/sci-fi_platformer12.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/sounds/sci-fi_platformer12.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/sounds/sci-fi_platformer12.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/beam.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/beam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/explosion.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/explosion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/player.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/player.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/power-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/power-up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/ship.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/ship.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/ship2.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/ship2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/assets/spritesheets/ship3.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/assets/spritesheets/ship3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/beam.js" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/beam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/copy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/explosion.js" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/explosion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabalhoPrático/phaser.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/TP-23448/phaser.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +161,15 @@
       <workItem from="1618184928937" duration="283000" />
       <workItem from="1618245612458" duration="730000" />
       <workItem from="1618268271969" duration="82000" />
+      <workItem from="1618954018004" duration="596000" />
+      <workItem from="1619209250870" duration="1220000" />
+      <workItem from="1619288480476" duration="59000" />
+      <workItem from="1619289801451" duration="3894000" />
+      <workItem from="1619293933797" duration="1474000" />
+      <workItem from="1619299560696" duration="969000" />
+      <workItem from="1619300616273" duration="5067000" />
+      <workItem from="1619305867599" duration="379000" />
+      <workItem from="1619441023710" duration="383000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,14 @@ class Scene1 extends Phaser.Scene {
 
   preload(){
     this.load.image("background", "assets/images/background.png");
-    //
+    this.load.image("title", "assets/spritesheets/title.png");
+    this.load.image("info", "assets/spritesheets/info.png");
+    this.load.image("playbutton", "assets/spritesheets/playbutton.png");
+
+    this.load.spritesheet("icons", "assets/spritesheets/icons.png", {
+      frameWidth: 150,
+      frameHeight: 150
+    })
     this.load.spritesheet("ship", "assets/spritesheets/ship.png",{
       frameWidth: 16,
       frameHeight: 16
@@ -48,8 +55,7 @@ class Scene1 extends Phaser.Scene {
 
 
 
-    this.add.text(20, 20, "Loading game...");
-    this.scene.start("playGame");
+
 
     this.anims.create({
       key: "ship1_anim",
@@ -110,7 +116,72 @@ class Scene1 extends Phaser.Scene {
       repeat: -1
     });
 
+    this.addGameTitle();
 
 
+  }
+  addGameTitle(){
+
+    // guiGroup is the group which contains all GUI elements
+    this.guiGroup = this.add.group();
+
+    // a black overlay is added to cover the entire game area, in the same way
+    // we previously added the sky background gradient
+    let blackOverlay = this.add.sprite(0, 0, "background");
+    blackOverlay.setOrigin(0, 0);
+    blackOverlay.displayWidth = game.config.width;
+    blackOverlay.displayHeight = game.config.height;
+    blackOverlay.alpha = 0.8;
+
+    // then the black overlay is added to guiGroup
+    this.guiGroup.add(blackOverlay);
+
+    // add the title
+    let title = this.add.sprite(game.config.width / 2, 50, "title");
+    title.setOrigin(0.5, 0);
+    title.setScale(0.3);
+
+
+    // add the title to guiGroup
+    this.guiGroup.add(title);
+
+    // add play button
+    let playButtonX = game.config.width / 2;
+    let playButtonY = game.config.height / 2 +20;
+    let playButton = this.add.sprite(playButtonX, playButtonY, "playbutton");
+    playButton.setScale(0.5);
+    // set play button interactive, so it triggers input
+    playButton.setInteractive();
+
+    // callback function to execute when the button is released
+    playButton.on("pointerup", function(){
+
+      // make the entire guiGroup invisible
+      this.guiGroup.toggleVisible();
+
+      // make the entire group inactive
+      this.guiGroup.active = false;
+
+      // make the camera flash
+      this.cameras.main.flash();
+
+      // call addGameInfo method
+      this.addGameInfo();
+    }, this);
+
+    // the button too is added to guiGroup
+    this.guiGroup.add(playButton);
+
+    // then the button is animated with a yoyo tween
+    this.tweens.add({
+      targets: [playButton],
+      y: game.config.height / 2+50,
+      duration: 5000,
+      yoyo: true,
+      repeat: -1
+    })
+  }
+  addGameInfo(){
+    this.scene.start("playGame");
   }
 }
